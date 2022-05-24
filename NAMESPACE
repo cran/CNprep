@@ -1,2 +1,3 @@
 export("CNpreprocessing","applyCNPmask","makeCNPmask")
 import("parallel","mclust","rlecuyer")
+importFrom("stats", "mad", "median", "pnorm", "predict", "runif", "var")
